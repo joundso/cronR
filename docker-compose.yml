@@ -1,0 +1,17 @@
+version: "3.6"
+
+networks:
+  cr-net: # shared container network     
+
+volumes:
+  shared-data: # shared voume between the two containers
+ 
+services:
+  cronr:
+    build: 
+      context: .
+    container_name: cronr
+    image: cronr
+    # volumes:
+    #   - shared-data:/src/shared-data
+    restart: always
