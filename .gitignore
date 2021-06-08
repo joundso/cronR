@@ -1,0 +1,15 @@
+/*
+/*/
+*.log
+!/.gitignore
+!/.Rbuildignore
+!/.gitlab-ci.yml
+!/renovate.json
+!/docker-compose.yml
+!/Dockerfile
+!/README.md
+!/hello.R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
