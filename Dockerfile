@@ -1,4 +1,4 @@
-FROM r-base:4.5.1
+FROM r-base:4.5.2
 
 RUN apt-get update &&  apt-get -y install cron
 
